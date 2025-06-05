@@ -30,6 +30,9 @@ const subtypeToEmoji = {
   "library": "📚",
   "shop": "🛍️",
   "museum": "🏛️",
+  "pub": "🍺" ,
+  "bar": "🍹" ,
+  "live music": "🎤",
   "Default": "📍" // fallback
 };
 
@@ -55,17 +58,17 @@ fetch(geojsonURL)
 
       //If website...
       const website = feature.properties.website?.trim();
-      const websiteHTML = website ? `<button onclick="window.open('${feature.properties.website}', '_blank')">
+      const websiteHTML = website ? `<button onclick="window.open('${feature.properties.website}', '_blank')" class = "popup-button">
         Go to Website
         </button>` : '';
 
-      // Hover popup (temporary)
+      // click popup
       const clickPopup = new mapboxgl.Popup({ // hover popup
         offset: 10,
         closeButton: true,
         closeOnClick: true
       })
-        .setHTML(`<div style = "font-size: 1.5em;">${emoji}</div>
+        .setHTML(`<div><div style = "font-size: 1.5em;">${emoji}</div>
           <div class = "popuptitle">${feature.properties.title}</div>
         <div id = "row-box" class = "row" >
           <div class = "inner-popup">${feature.properties.type}</div>
@@ -74,9 +77,10 @@ fetch(geojsonURL)
         <div class = "address-info"> ${addressHTML}
         </div>
         ${websiteHTML}
+        </div>
         `);
 
-      // Click popup (persistent)
+      // hover popup (persistent)
       const hoverPopup = new mapboxgl.Popup({
         offset: 10,
         closeButton: false,

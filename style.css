@@ -11,6 +11,7 @@
     --champagne: #fbe4c6;
     --eggplant: #624153;
     --light-purple: #A57890;
+    --lightest-purple: #CEB6C3;
     --brown: #865009;
 }
 
@@ -56,8 +57,9 @@
 }
 
 #row-box {
-  justify-content: space-between;
-  align-items: center; /* optional: vertically center */
+    justify-content: space-between;
+    align-items: center;
+    /* optional: vertically center */
 }
 
 h1 {
@@ -163,15 +165,27 @@ body {
 }
 
 
-marquee {
-    font-family: 'virgo-delight', sans-serif;
-    font-size: 2em;
-    border-radius: 5px;
+.layout {
+  display: flex;
+  align-items: flex-start; /* aligns tops of legend & map */
+  gap: 20px; /* spacing between legend and map */
+  margin-top: 90px;
+}
+
+#legend {
+    position: relative;
+}
+
+.map-layer {
+  position: relative;
+  width: 800px;
+  height: 480px; /* enough to fit both layers comfortably */
+  margin-left: 0; /* shifts everything left together */
 }
 
 .map-container {
     position: absolute;
-    max-width: 60%;
+    max-width: 100%;
     /* Limits the maximum width of the map */
     height: 400px;
     /* Fixed height or use aspect ratio */
@@ -179,8 +193,6 @@ marquee {
 }
 
 #my-map {
-    margin: 20px auto;
-    margin-top: 70px;
     width: 100%;
     height: 400px;
     z-index: 5;
@@ -190,11 +202,11 @@ marquee {
 
 #map-backing {
     background-color: var(--light-purple);
-    margin-top: 80px;
+    margin-top: 10px;
     margin-left: 18px;
     border: 5px solid var(--light-purple);
     z-index: 4;
-    width: 60%
+    width: 100%
 }
 
 .mapboxgl-popup {
@@ -211,17 +223,20 @@ marquee {
 .mapboxgl-popup-tip {
     display: none;
 }
-.popuptitle{
+
+.popuptitle {
     font-family: "mont";
     font-size: 1em;
     text-transform: "uppercase";
 }
-.inner-popup{
+
+.inner-popup {
     font-family: "mont";
     font-size: .75em;
     color: var(--ochre);
 }
-.address-info{
+
+.address-info {
     font-family: "mont";
     font-size: 1em;
     color: var(--chinese-violet);
@@ -269,3 +284,17 @@ marquee {
     /* Your pink color */
     border: 10px solid var(--emerald);
 }
+
+.popup-button {
+    display: block;
+    /* make the button take its own line */
+    margin: 10px auto 2px auto;
+    background-color: var(--lightest-purple);
+    color: var(--ochre);
+    font-family: "mont";
+    border: 2px solid var(--light-purple);
+    border-radius: 4px;
+    padding: 3px 3px;
+    font-size: 0.9em;
+}
+
