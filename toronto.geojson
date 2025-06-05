@@ -42,7 +42,8 @@
                 "title": "De Mello Coffee",
                 "type": "coffee",
                 "subtype": "coffee shop",
-                "address": "365 Bloor St E"
+                "address": "365 Bloor St E",
+                "website": "https://hellodemello.com/?srsltid=AfmBOor8B23CmQACNG9ZnPPJaQI_kZTVG0A9T1W2qrFT7GdBSU96dArA"
             },
             "geometry": {
                 "coordinates": [
@@ -58,7 +59,8 @@
                 "type": "nature",
                 "title": "Evergreen Brickworks",
                 "subtype": "trails",
-                "address": ""
+                "address": "",
+                "website": "https://www.evergreen.ca/"
             },
             "geometry": {
                 "coordinates": [
@@ -90,7 +92,8 @@
             "properties": {
                 "title": "No Frills",
                 "type": "food",
-                "subtype": "grocery"
+                "subtype": "grocery",
+                "address": "345 Bloor St E"
             },
             "geometry": {
                 "coordinates": [
@@ -107,7 +110,8 @@
                 "title": "The Epicure Shop",
                 "type": "food",
                 "subtype": "lunch",
-                "address": "473 Parliament St"
+                "address": "473 Parliament St",
+                "website": "https://www.theepicureshop.com/"
             },
             "geometry": {
                 "coordinates": [
@@ -135,9 +139,10 @@
         {
             "type": "Feature",
             "properties": {
-                "title": "Christie Pitts",
+                "title": "Christie Pits",
                 "type": "nature",
-                "subtype": "park"
+                "subtype": "park",
+                "website": ""
             },
             "geometry": {
                 "coordinates": [
@@ -153,7 +158,8 @@
                 "title": "Utsav Indian Cuisine",
                 "type": "food",
                 "subtype": "restaurant",
-                "address": "69 Yorkville Ave Suite #303"
+                "address": "69 Yorkville Ave Suite #303",
+                "website": "https://www.utsav.ca/"
             },
             "geometry": {
                 "coordinates": [
@@ -170,7 +176,8 @@
                 "title": "KOKO Share Bar",
                 "type": "food",
                 "subtype": "restaurant",
-                "address": "81 Yorkville Ave"
+                "address": "81 Yorkville Ave",
+                "website": "https://kokorestaurant.ca/"
             },
             "geometry": {
                 "coordinates": [
@@ -186,7 +193,8 @@
                 "type": "food",
                 "title": "Nord Lyon",
                 "subtype": "bakery",
-                "address": "665 Queen St W"
+                "address": "665 Queen St W",
+                "website": "https://nord-lyon.ca/?srsltid=AfmBOop9DZJ-nnKZguGstMPMIwUyZ4cJHLp9Khj_-CI71ZvFPkCP8k5j"
             },
             "geometry": {
                 "coordinates": [
@@ -202,7 +210,8 @@
                 "type": "food",
                 "title": "On Third Thought",
                 "subtype": "ice cream",
-                "address": "6 Markham St"
+                "address": "6 Markham St",
+                "website": "https://www.onthirdthought.com/"
             },
             "geometry": {
                 "coordinates": [
@@ -234,7 +243,8 @@
                 "title": "The Paper Place",
                 "type": "shop",
                 "subtype": "shop",
-                "address": "887 Queen St W"
+                "address": "887 Queen St W",
+                "website": "https://shop.thepaperplace.ca/"
             },
             "geometry": {
                 "coordinates": [
@@ -249,7 +259,9 @@
             "properties": {
                 "title": "Agora",
                 "type": "food",
-                "subtype": "lunch"
+                "subtype": "lunch",
+                "address" : "921 Queen St W",
+                "website": "https://mamakas.ca/agora/"
             },
             "geometry": {
                 "coordinates": [
@@ -264,7 +276,9 @@
             "properties": {
                 "title": "Morning Parade",
                 "type": "coffee",
-                "subtype": "coffee shop"
+                "subtype": "coffee shop",
+                "address": "256 Crawford St", 
+                "website": "https://www.morningparade.ca/"
             },
             "geometry": {
                 "coordinates": [
@@ -280,7 +294,8 @@
                 "title": "Butter and Blue",
                 "type": "coffee",
                 "subtype": "coffee shop",
-                "address": "7 Baldwin St"
+                "address": "7 Baldwin St",
+                "website": "https://www.instagram.com/butterandblue.to/?hl=en"
             },
             "geometry": {
                 "coordinates": [
@@ -296,7 +311,8 @@
                 "type": "coffee",
                 "title": "Rooms Coffee",
                 "subtype": "coffee shop",
-                "address": "17 Baldwin St"
+                "address": "17 Baldwin St",
+                "website": "https://www.instagram.com/17baldwinst/?hl=en"
             },
             "geometry": {
                 "coordinates": [
@@ -312,7 +328,8 @@
                 "title": "Carbonic",
                 "type": "coffee",
                 "subtype": "coffee shop",
-                "address": "37 Baldwin St"
+                "address": "37 Baldwin St",
+                "carbonic": "https://carboniccoffee.netlify.app/"
             },
             "geometry": {
                 "coordinates": [
@@ -328,7 +345,8 @@
                 "title": "Art Gallery of Ontario",
                 "type": "to do",
                 "subtype": "museum",
-                "address": "317 Dundas St W"
+                "address": "317 Dundas St W",
+                "website": "https://ago.ca/"
             },
             "geometry": {
                 "coordinates": [
@@ -344,7 +362,8 @@
                 "title": "Good Grief Yarn & Provisions",
                 "type": "shop",
                 "subtype": "shop",
-                "address": "829 Dundas St W"
+                "address": "829 Dundas St W",
+                "website": "https://goodgriefyarn.com/?srsltid=AfmBOoqyhO_OfLMyRjplvjsjDHs5ZgQE7flR6xjlpxozSVrCuCjrsFIV"
             },
             "geometry": {
                 "coordinates": [
@@ -360,7 +379,8 @@
                 "title": "Light Cafe",
                 "type": "food",
                 "subtype": "brunch",
-                "address": "23 Baldwin Street - Floor Unit"
+                "address": "23 Baldwin Street - Floor Unit",
+                "website": "https://www.lightcafe.ca/"
             },
             "geometry": {
                 "coordinates": [
@@ -376,7 +396,8 @@
                 "title": "Bisou",
                 "type": "coffee",
                 "subtype": "coffee shop",
-                "address": "350 Berkeley St"
+                "address": "350 Berkeley St",
+                "website": "https://leconciliabuleto.com/lab/"
             },
             "geometry": {
                 "coordinates": [
@@ -439,7 +460,8 @@
             "properties": {
                 "title": "Longo's",
                 "type": "food",
-                "subtype": "grocery"
+                "subtype": "grocery",
+                "address": "100 Bloor St E"
             },
             "geometry": {
                 "coordinates": [
@@ -454,7 +476,9 @@
             "properties": {
                 "title": "Piedmont Coffee Bar",
                 "type": "coffee",
-                "subtype": "coffee shop"
+                "subtype": "coffee shop",
+                "address": "66 Isabella St",
+                "website": "https://piedmontcoffeebar.com/"
             },
             "geometry": {
                 "coordinates": [
@@ -470,7 +494,8 @@
                 "title": "The Shmooz",
                 "type": "coffee",
                 "subtype": "coffee shop",
-                "address": "590 Pape Ave"
+                "address": "590 Pape Ave",
+                "website": "https://www.theshmooz.ca/"
             },
             "geometry": {
                 "coordinates": [
@@ -486,7 +511,8 @@
                 "title": "Hot Black",
                 "type": "coffee",
                 "subtype": "coffee shop",
-                "address": "245 Queen St W"
+                "address": "245 Queen St W",
+                "website": "https://hotblack-coffee.com/"
             },
             "geometry": {
                 "coordinates": [
@@ -502,7 +528,8 @@
                 "title": "Woody's",
                 "type": "bar",
                 "subtype": "drag",
-                "address": "467 Church St #465"
+                "address": "467 Church St #465",
+                "website": "https://www.instagram.com/woodysonchurch/?hl=en"
             },
             "geometry": {
                 "coordinates": [
@@ -518,7 +545,8 @@
                 "title": "Crews and Tangos",
                 "type": "bar",
                 "subtype": "drag",
-                "address": "508 Church St, Toronto"
+                "address": "508 Church St, Toronto",
+                "website": "https://www.instagram.com/crewsandtangos/?hl=en"
             },
             "geometry": {
                 "coordinates": [
@@ -534,7 +562,8 @@
                 "title": "Anejo",
                 "type": "food",
                 "subtype": "restaurant",
-                "address": "600 King St W"
+                "address": "600 King St W",
+                "website": "https://www.anejo.ca/"
             },
             "geometry": {
                 "coordinates": [
@@ -550,7 +579,8 @@
                 "title": "General Assembly Pizza",
                 "type": "food",
                 "subtype": "pizza",
-                "address": "600 King St W"
+                "address": "600 King St W",
+                "website": "https://gapizza.com/"
             },
             "geometry": {
                 "coordinates": [
