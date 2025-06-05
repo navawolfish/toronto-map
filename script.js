@@ -11,7 +11,7 @@ const map = new mapboxgl.Map({
   zoom: 12
 });
 // Load external GeoJSON file
-const geojsonURL = 'https://raw.githubusercontent.com/navawolfish/navawolfish.github.io-18months/refs/heads/main/toronto.geojson'
+const geojsonURL = 'https://raw.githubusercontent.com/navawolfish/toronto-map/refs/heads/main/toronto.geojson'
 const subtypeToEmoji = {
   "home": "🏠",
   "park": "🌳",
@@ -29,6 +29,7 @@ const subtypeToEmoji = {
   "pizza": "🍕",
   "library": "📚",
   "shop": "🛍️",
+  "museum": "🏛️",
   "Default": "📍" // fallback
 };
 
@@ -48,9 +49,15 @@ fetch(geojsonURL)
         .setLngLat(feature.geometry.coordinates)
         .addTo(map);
 
-
+      // If address...
       const address = feature.properties.address?.trim();
       const addressHTML = address ? `<div id = "row-box" class="row"> <div class="address-info">Address: </div><div class = "address-info"> ${address}</div></div>` : '';
+
+      //If website...
+      const website = feature.properties.website?.trim();
+      const websiteHTML = website ? `<button onclick="window.open('${feature.properties.website}', '_blank')">
+        Go to Website
+        </button>` : '';
 
       // Hover popup (temporary)
       const clickPopup = new mapboxgl.Popup({ // hover popup
@@ -66,6 +73,7 @@ fetch(geojsonURL)
         </div>
         <div class = "address-info"> ${addressHTML}
         </div>
+        ${websiteHTML}
         `);
 
       // Click popup (persistent)
