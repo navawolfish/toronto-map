@@ -1,0 +1,563 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Home!",
+                "type": "home",
+                "subtype": "home",
+                "address": "395 Bloor St. E"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.37749482869447,
+                    43.67198533737334
+                ],
+                "type": "Point"
+            },
+            "id": 0
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Shake Shack",
+                "type": "food",
+                "subtype": "fast food",
+                "address": "10 Dundas St E Level 1"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.38077551769479,
+                    43.65660202159779
+                ],
+                "type": "Point"
+            },
+            "id": 1
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "De Mello Coffee",
+                "type": "coffee",
+                "subtype": "coffee shop",
+                "address": "365 Bloor St E"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.37857146350166,
+                    43.67189772751868
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "nature",
+                "title": "Evergreen Brickworks",
+                "subtype": "trails",
+                "address": ""
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.36588353886259,
+                    43.684179420327524
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subtype": "park",
+                "type": "nature",
+                "title": "Rosedale Park",
+                "address": ""
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39003651166396,
+                    43.67640428999613
+                ],
+                "type": "Point"
+            },
+            "id": 4
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "No Frills",
+                "type": "food",
+                "subtype": "grocery"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.37804798112741,
+                    43.67191908273267
+                ],
+                "type": "Point"
+            },
+            "id": 5
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Epicure Shop",
+                "type": "food",
+                "subtype": "lunch",
+                "address": "473 Parliament St"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.36773847629688,
+                    43.66407819011897
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Queen's Park",
+                "type": "nature",
+                "subtype": "park"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.3921866791214,
+                    43.6647214578791
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Christie Pitts",
+                "type": "nature",
+                "subtype": "park"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.4208749070698,
+                    43.66464993183459
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Utsav Indian Cuisine",
+                "type": "food",
+                "subtype": "restaurant",
+                "address": "69 Yorkville Ave Suite #303"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39080063182408,
+                    43.67114037419762
+                ],
+                "type": "Point"
+            },
+            "id": 9
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "KOKO Share Bar",
+                "type": "food",
+                "subtype": "restaurant",
+                "address": "81 Yorkville Ave"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39145395761983,
+                    43.67099436518373
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "food",
+                "title": "Nord Lyon",
+                "subtype": "bakery",
+                "address": "665 Queen St W"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.4045279241642,
+                    43.64694950274938
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "food",
+                "title": "On Third Thought",
+                "subtype": "ice cream",
+                "address": "6 Markham St"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.40542201034461,
+                    43.64709436389717
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Trinity Bellwoods",
+                "type": "nature",
+                "subtype": "park",
+                "address": ""
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.41332173178536,
+                    43.64627994065529
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Paper Place",
+                "type": "shop",
+                "subtype": "shop",
+                "address": "887 Queen St W"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.41160571392489,
+                    43.64554119467735
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Agora",
+                "type": "food",
+                "subtype": "lunch"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.41267731834297,
+                    43.645279575119645
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Morning Parade",
+                "type": "coffee",
+                "subtype": "coffee shop"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.41733143891994,
+                    43.650144876334195
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Butter and Blue",
+                "type": "coffee",
+                "subtype": "coffee shop",
+                "address": "7 Baldwin St"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39259205667649,
+                    43.656025330492355
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "coffee",
+                "title": "Rooms Coffee",
+                "subtype": "coffee shop",
+                "address": "17 Baldwin St"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39281923509523,
+                    43.65600063556175
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Carbonic",
+                "type": "coffee",
+                "subtype": "coffee shop",
+                "address": "37 Baldwin St"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39350518095377,
+                    43.6558491300336
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Art Gallery of Ontario",
+                "type": "to do",
+                "subtype": "museum",
+                "address": "317 Dundas St W"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39189308611283,
+                    43.653981119698074
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Good Grief Yarn & Provisions",
+                "type": "shop",
+                "subtype": "shop",
+                "address": "829 Dundas St W"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.40912156797008,
+                    43.651550273364364
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Light Cafe",
+                "type": "food",
+                "subtype": "brunch",
+                "address": "23 Baldwin Street - Floor Unit"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39317866896442,
+                    43.655947443862374
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Bisou",
+                "type": "coffee",
+                "subtype": "coffee shop",
+                "address": "350 Berkeley St"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.3686374424513,
+                    43.66181990822585
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Riverdale Park",
+                "type": "nature",
+                "subtype": "park",
+                "address": ""
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.35497103567849,
+                    43.670096313935574
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "University of Toronto",
+                "type": "to do",
+                "subtype": "school",
+                "address": ""
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.3955351118066,
+                    43.662905697250864
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Toronto Reference Library",
+                "type": "to do",
+                "subtype": "library",
+                "address": "789 Yonge St"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.38688905946104,
+                    43.67182802678943
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Longo's",
+                "type": "food",
+                "subtype": "grocery"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.38451401657316,
+                    43.67083958001848
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Piedmont Coffee Bar",
+                "type": "coffee",
+                "subtype": "coffee shop"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.38242158824247,
+                    43.66846669904939
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Shmooz",
+                "type": "coffee",
+                "subtype": "coffee shop",
+                "address": "590 Pape Ave"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.343154034934,
+                    43.67536579535009
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Hot Black",
+                "type": "coffee",
+                "subtype": "coffee shop",
+                "address": "245 Queen St W"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.38860624602364,
+                    43.650302646634174
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Woody's",
+                "type": "bar",
+                "subtype": "drag",
+                "address": "467 Church St #465"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.3788010700627,
+                    43.66472616001688
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Crews and Tangos",
+                "type": "bar",
+                "subtype": "drag",
+                "address": "508 Church St, Toronto"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.38075702237947,
+                    43.664706161922226
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Anejo",
+                "type": "food",
+                "subtype": "restaurant",
+                "address": "600 King St W"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.40092523939816,
+                    43.64620426550343
+                ],
+                "type": "Point"
+            }
+        },
+                {
+            "type": "Feature",
+            "properties": {
+                "title": "General Assembly Pizza",
+                "type": "food",
+                "subtype": "pizza",
+                "address": "600 King St W"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.40092523939816,
+                    43.64620426550343
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}
