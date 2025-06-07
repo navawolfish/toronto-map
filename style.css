@@ -1,9 +1,9 @@
 /* style.css */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -92,7 +92,7 @@ h3 {
     background-color: var(--gamboge);
     z-index: 10;
     height: 0.5px;
-    margin-top: 5%;
+    margin-top: -20px;
     /* You can keep or move this to parent container */
     margin-left: 5%;
 }
@@ -109,7 +109,7 @@ h3 {
     background-color: var(--gamboge);
     z-index: 10;
     height: 0.5px;
-    margin-top: 6%;
+    margin-top: 50px;
     /* You can keep or move this to parent container */
     margin-left: -25%;
 }
@@ -123,15 +123,15 @@ h3 {
 }
 
 #titlehb {
-    margin-top: -1px;
+    margin-top: 30px;
     margin-left: -5%;
     animation: slideInFromLeft 1s ease-out forwards;
 }
 
 #blurbhb {
     position: absolute;
-    top: 2em;
-    left: 45%;
+    top: 30px;
+    left: 47%;
     max-width: 400px;
     font-family: 'mont';
     color: var(--chinese-violet);
@@ -141,16 +141,16 @@ h3 {
 .stackh1 {
     position: absolute;
     top: 0;
-    left: 1em;
+    left: 10px;
     z-index: 3;
     font-family: 'virgo-delight';
 }
 
 .stackh2 {
     position: absolute;
-    top: 0.07em;
+    top: 2px;
     /* use em or px for precision */
-    left: 1.07em;
+    left: 12px;
     z-index: 2;
     font-family: 'virgo-delight';
 }
@@ -191,7 +191,7 @@ h3 {
 h2 {
     font-family: 'virgo-delight', serif;
     color: var(--cerulean);
-    font-size: 2em;
+    font-size: 20px;
 }
 
 body {
@@ -204,7 +204,7 @@ body {
 .subtitle {
     font-size: 14px;
     font-family: 'mont';
-    color: var(--chinese-violet); 
+    color: var(--chinese-violet);
     margin-left: 7.5%;
     text-shadow: 0px .5px 1px rgba(0, 0, 0, 0.5);
     /* Purple glow */
@@ -296,7 +296,8 @@ li:not(:last-child) {
 .mapboxgl-popup-content {
     background: var(--champagne);
     color: var(--chinese-violet);
-    border: 2px solid var(--chinese-violet);
+    border: 4px solid var(--chinese-violet);
+    border-radius: 8px
 }
 
 .mapboxgl-popup-tip {
@@ -305,63 +306,20 @@ li:not(:last-child) {
 
 .popuptitle {
     font-family: "mont";
-    font-size: 1em;
+    font-size: 12px;
     text-transform: "uppercase";
 }
 
 .inner-popup {
     font-family: "mont";
-    font-size: .75em;
+    font-size: 10px;
     color: var(--ochre);
 }
 
 .address-info {
     font-family: "mont";
-    font-size: 1em;
+    font-size: 12px;
     color: var(--chinese-violet);
-}
-
-/* RIBBONS */
-
-.ribbon {
-    transform: rotate(30deg);
-    transform-origin: left bottom;
-    padding: 8px 0;
-    /* Extra width for diagonal span */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    /* Added missing border properties */
-}
-
-/* Marquee Text */
-.ribbon-text {
-    font-family: 'virgo-delight', sans-serif;
-    font-size: 2em;
-    color: var(--amber);
-    /* Your green color */
-    white-space: nowrap;
-    letter-spacing: 0.5px;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
-}
-
-/* Ribbons */
-#ribbon1 {
-    width: 650px;
-    margin-top: -15%;
-    margin-left: 65%;
-    /* Pulls ribbon into corner */
-    background: var(--red-munsell);
-    /* Your pink color */
-    border: 10px solid var(--carnation-pink);
-}
-
-#ribbon2 {
-    width: 1000px;
-    margin-top: -5%;
-    margin-left: 50%;
-    /* Pulls ribbon into corner */
-    background: var(--yinmn-blue);
-    /* Your pink color */
-    border: 10px solid var(--emerald);
 }
 
 .popup-button {
@@ -374,5 +332,5 @@ li:not(:last-child) {
     border: 2px solid var(--light-purple);
     border-radius: 4px;
     padding: 3px 3px;
-    font-size: 0.9em;
+    font-size: 10px;
 }
