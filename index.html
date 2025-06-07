@@ -16,8 +16,8 @@
   </div>
   <div class='row'>
     <div id='titlehb' class='hbox'>
-      <h1 id="stackh1">BIENVENUE À TORONTO!</h1>
-      <h1 id="stackh2">BIENVENUE À TORONTO!</h1>
+      <h1 id="title-text1" class="stackh1">BIENVENUE À TORONTO!</h1>
+      <h1 id="title-text2" class="stackh2">BIENVENUE À TORONTO!</h1>
     </div>
     <div id="blurbhb" , class='hbox'> Hi Anais! Welcome to Toronto! I am so so excited to have you here so I made you
       this map. I'm hoping we can start a roommate-ship that is defined by mutual respect, communication, and
@@ -28,13 +28,62 @@
   <div id="hb3" class='hbox'>
     <div id="hb4" class='hbox'></div>
   </div>
-  <div class="layout">
-    <div class = "map-layer">
+  <div class="layout" style="margin-top: 80px">
+    <div class="map-layer">
       <div id="my-map" class="map-container"> </div>
       <div id="map-backing" class="map-container"> </div>
     </div>
 
-    <div class = "legend"> hi there
+    <div class="legend-box">
+      <div style="position: relative; height: 45px; margin-top: 10px">
+        <div id="legend-title1">
+          🇨🇦 LEGEND 🇨🇦
+        </div>
+        <div id="legend-title2">
+          LEGEND
+        </div>
+      </div>
+      <div class="layout" style="margin-top: 0">
+        <div class="col">
+          <ul>
+            <li>🏠: &nbsp;Home!</li>
+          </ul>
+          <div class="subtitle">Food</div>
+          <ul>
+            <li>🍽️: &nbsp;Restaurant</li>
+            <li>☕️: &nbsp;Coffee Shop</li>
+            <li>🍎: &nbsp;Grocery</li>
+            <li>🥐: &nbsp;Bakery</li>
+            <li>🍳: &nbsp;Brunch</li>
+            <li>🥗: &nbsp;Lunch</li>
+            <li>🍔: &nbsp;Fast Food</li>
+            <li>🍕: &nbsp;Pizza</li>
+            <li>🍦: &nbsp;Ice Cream</li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="subtitle">Nightlife</div>
+          <ul>
+            <li>🍺: &nbsp;Pub</li>
+            <li>🍹: &nbsp;Bar</li>
+            <li>🎤: &nbsp;Music</li>
+            <li>💅: &nbsp;Drag Bar</li>
+          </ul>
+          <div class="subtitle">Nature</div>
+          <ul>
+            <li>🌳: &nbsp;Park</li>
+            <li>🏞️: &nbsp;Trails</li>
+          </ul>
+          <div class="subtitle">To Do</div>
+          <ul>
+            <li>🏫: &nbsp;School</li>
+            <li>📚: &nbsp;Library</li>
+            <li>🛍️: &nbsp;Shopping</li>
+            <li>🏛️: &nbsp;Museum</li>
+            <li>📍: &nbsp;Other</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </div>
